@@ -1,0 +1,171 @@
+/* Reset default browser styles (optional) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: sans-serif;
+    background-color: #060707;
+    color: #fff; /* Set default text color */
+  }
+  
+  header, nav, main, footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: inherit; /* Inherit from body color */
+    text-decoration: none;
+  }
+  
+  nav i {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  nav i:hover {
+    transform: scale(1.1);
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .wrapper {
+    text-align: center;
+  }
+  
+  .wrapper img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .header-text {
+    text-align: center;
+  }
+  
+  .header-text h1 span {
+    color: #f00; /* Highlight name with red */
+  }
+  
+  .edu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .edu-list div {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .edu-list i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 150px;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .skill ul {
+    padding: 0;
+  }
+  
+  .skill li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .skill i {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .web p {
+    margin-bottom: 1rem;
+  }
+  
+  .web a {
+    color: #fff; /* Link color */
+  }
+  
+  .footer {
+    background-color: #1a1a1a;
+    color: #ddd;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .footer .main {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  .social a {
+    margin-right: 1rem;
+    color: inherit; /* Inherit from footer color */
+  }
+  
+  .social a i {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .social a i:hover {
+    transform: scale
+  }  
